@@ -30,7 +30,6 @@ public class PostsRepositoryTest {
         String content = "테스트본문";
 
         postsRepository.save(Posts.builder()
-                                    .title(title)
                                     .content(content)
                                     .author("shfwkd234@gmail.com")
                                     .build());
